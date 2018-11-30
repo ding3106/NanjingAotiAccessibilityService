@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightgray"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="请选择场馆:" />
+
+    <RadioGroup
+        android:id="@+id/rg_Venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_Swimming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="18dp"
+            android:text="游泳馆" />
+
+        <RadioButton
+            android:id="@+id/rb_Gym"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textSize="18dp"
+            android:text="体育馆" />
+
+    </RadioGroup>
+</LinearLayout>
